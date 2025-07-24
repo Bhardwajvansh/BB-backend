@@ -22,10 +22,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-
-
-app = FastAPI()
-
 class FinanceEntry(BaseModel):
     month: str
     revenue: float
