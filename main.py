@@ -11,9 +11,9 @@ app = FastAPI()
 
 origins = [
     "http://localhost:3000",         
-    "https://budget-buddy-693559507420.asia-south1.run.app/",   
+    "https://budget-buddy-693559507420.asia-south1.run.app",   
     "https://budget-buddy-909236466645.asia-south1.run.app",
-    "https://budget-buddy-weld.vercel.app/",
+    "https://budget-buddy-weld.vercel.app",
 ]
 
 app.add_middleware(
