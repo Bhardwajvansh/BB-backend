@@ -11,7 +11,7 @@ app = FastAPI()
 
 origins = [
     "http://localhost:3000",         
-    "https://your-frontend-url.com",   
+    "https://budget-buddy-693559507420.asia-south1.run.app/",   
 ]
 
 app.add_middleware(
